@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSC 355 MIDTERM</title>
+    <link rel="icon" href="img/5.png">
+    <!-- custom css -->
+    <link href="style.css" rel = "stylesheet">
+    <!-- custom js -->
+    <script src = "custom.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
   <body>
+
+  <div class = "main-title">
+    <h1> Swap Game </h1>
+  </div>
+
+  <div id = "info" class = "info-container">
+    <span id = "counter" class = "counter-text"> Moves: 0 </span>
+    <button id = "swap" class = "swap-btn" onClick = "swapImages()"> SWAP </button>
+  </div>
+
+  <div id = "grid" class = "grid-container">
+    <script> makeGrid(); checkLimit();</script>
+  </div>
+
+
 
   </body>
 </html>
