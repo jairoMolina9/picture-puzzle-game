@@ -51,6 +51,7 @@ body {
 
 .won-text {
   color: red;
+  text-shadow: 1px 12px 15px rgba(255, 36, 36, 0.3);
 }
 
 .grid-container {
