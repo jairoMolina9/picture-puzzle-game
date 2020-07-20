@@ -80,3 +80,17 @@ box-shadow: 2px 3px 22px -6px rgba(110,110,110,0.6);
   display:none;
   font-size: 20px;
 }
+
+@media (max-width: 990px) {
+  .swap-btn {
+    width: 100px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .swap-btn {
+    width: 65px;
+    height: 25px;
+  }
+}
