@@ -15,18 +15,21 @@
   <body>
 
   <div class = "main-title">
-    <h1> Swap Game </h1>
+    <h1 > Swap Game </h1>
   </div>
 
   <div id = "info" class = "info-container">
+
+
+      <button id = "help" class = "swap-btn" onClick = "helpMe()"> HELP </button>
     <span id = "counter" class = "counter-text"> Moves: 0 </span>
     <button id = "swap" class = "swap-btn" onClick = "swapImages()"> SWAP </button>
+
   </div>
 
   <div id = "grid" class = "grid-container">
     <script> makeGrid(); checkLimit();</script>
   </div>
-
 
 
   </body>
